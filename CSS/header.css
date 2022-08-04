@@ -47,20 +47,6 @@ header {
     background-color: rgba(163, 227, 226, 0.4);
 }
 
-#villagers div {
-    margin-top: 7px;
-    padding: 5px;
-    border-radius: 2px;
-    display: grid;
-    grid-auto-columns: max-content;
-    background-color: rgba(163, 227, 226, 0.4);
-    visibility: hidden;
-}
-
-#villagers:hover div {
-    visibility: visible;
-}
-
 body {
     background-image: url("/images/background.png");
 }
